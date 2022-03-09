@@ -1,0 +1,193 @@
+.contact {
+    padding-top: 1px;
+}
+.contact-con{
+    margin-top: 150px;
+    font-size: 40px;
+    margin-left: 180px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.contact-h3{
+    margin-left: 10px;
+    line-height: 70px;
+}
+.contact-p{
+    color: #252222;
+    margin-left: 20px;
+    font-size: 18px;
+}
+.contact-det{
+    margin-left: 900px;
+    margin-top: -100px;
+}
+input{
+    height: 40px;
+    width: 300px;
+    border-radius:10px;
+    border: none;    
+    background-color:#DEDEDE;
+    padding: 0 0 10px 10px;
+    -webkit-appearance: none;
+}
+
+input:focus{
+    outline: 1;
+    outline-color: #cfc9c9;
+}
+
+button{
+    width:300px;
+    margin-top: 15px;
+    background-color: #B0B0B0;
+    border: none;
+    height: 40px;
+    border-radius: 10px;
+    color: #7E7E7E;
+}
+
+.contact-fname{
+    padding-bottom: 10px;
+}
+
+.contact-img{
+    height: 70px;
+    width: 100px;
+}
+.contact-email {
+    padding-bottom: 10px;
+}
+
+.contact-footer{
+    position: relative;
+    width: 100%;
+    background-color: 	#252222;
+    height: 230px;
+    top: 200px;
+    overflow: hidden;
+}
+.contact-left{
+    padding-top: 30px;
+    padding-left: 50px;
+}
+.contact-name{
+    font-size: 20px;
+    color: #C7C7C7;
+}
+.contact-add{
+   font-size: 14px;
+   line-height: 20px;
+   color: #C7C7C7;
+}
+.contact-right{
+    text-align: right;
+    margin-top: -100px;
+}
+.contact-h{
+    line-height: 25px;
+    padding-right: 100px;
+    float: right;
+    display: flex;
+}
+.contact-h2{
+    color: #C7C7C7;
+    font-size: 18px;
+    padding-right: 110px;
+}
+.ic{
+    height: 20px;
+    width: 20px;
+}
+.msg {
+    min-height: 100px;
+}
+
+
+@media (max-width:1024px){
+    .contact-con{
+        font-size: 30px;
+        margin-left: 60px;
+    }
+    .contact-h3{ 
+        margin-top: 100px;   
+        line-height: 50px;
+    }
+    .contact-p{
+        font-size: 15px;
+    }
+    .contact-det{
+        margin-left: 600px;
+        margin-top: 100px;
+
+    }
+}
+@media (max-width:770px){
+    .contact-con{
+        margin-top: 130px;
+    }
+    .contact-det{
+        margin-left: 100px;
+        margin-top: 50px;
+    }
+}
+@media (max-width:430px){
+    .contact-con{
+        margin-top: 100px;
+        margin-left: 30px;
+    }
+    .contact-det{
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+    .contact-left{
+        padding-top: 30px;
+        padding-left: 30px;
+    }
+    .contact-h2{
+        margin-right: -70px;
+        font-size: 15px;
+    }
+    .contact-name{
+        font-size: 18px;
+    }
+    .contact-h{
+        margin-right: -60px;
+    }
+    .ic{
+        height: 10px;
+        width: 10px;
+    }
+}
+@media (max-width:325px){
+    .contact-con{
+        margin-top: 80px;
+        margin-left: 20px;
+    }
+    .contact-det{
+        margin-left: 40px;
+        margin-top: 50px;
+    }
+    .contact-left{
+        padding-top: 30px;
+        padding-left: 15px;
+    }
+    .contact-add{
+        font-size: 12px;
+        line-height: 20px;
+     }
+    .contact-h2{
+        font-size: 12px;
+    }
+    .contact-name{
+        font-size: 14px;
+    }
+    .contact-h{
+        margin-right: -70px;
+    }
+    input{
+        height: 30px;
+        width: 250px;
+    }
+    button{
+        width:250px;
+    }
+}
